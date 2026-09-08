@@ -1,0 +1,11 @@
+
+comparer les montants net a payer de deux bulletins de paie de deux ois différents  Mai et Juin: recherchex, recherchev puis difference de montant
+
+
+parametrer les comptes pour les ramener a 6 caractères   migrer des donnees dans sage comptable :
+
+ajouter caractères :
+=A2&REPT("0";6-NBCAR(A2)) 
+
+
+Mapping  : ils utilisaient sage compta numéro de compte pas uniformes,  dire au logiciel qu'on veut ramener les num de compte a …  
